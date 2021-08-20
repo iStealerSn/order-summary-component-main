@@ -1,0 +1,14 @@
+// Card stylesheet
+
+.orderCard {
+    width: 85%;
+    text-align: center;
+    background: white;
+    max-height: 565px;
+    max-width: 28.125rem;
+
+    .cardHeader {
+        min-height: 160px;
+        width: 100%;
+    }
+}

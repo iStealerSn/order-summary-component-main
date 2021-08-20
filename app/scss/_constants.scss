@@ -1,0 +1,44 @@
+/*
+
+License
+These fonts are licensed under the Open Font License.
+
+You can use them freely in your products & projects - print or digital,
+commercial or otherwise.
+
+This isn't legal advice, please consider consulting a lawyer and 
+see the full license for all details.
+
+
+Google Fonts is a library of 1,094 free licensed font families and APIs
+for convenient use via CSS and Android. The library also has delightful
+and beautifully crafted icons for common actions and items. Download
+them for use in your digital products for Android, iOS, and web.
+
+https://fonts.google.com/specimen/Red+Hat+Display#pairings
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+$font-family: 'Red Hat Display', sans-serif; // Red Hat Display
+
+// Font Weight
+$fw-medium: 400;
+$fw-bold: 700;
+$fw-black: 900;
+
+// Font size
+$font-default: 16px;
+
+
+
+
+
+
+// Color Palette - Primary, Neutral
+$pm-pale-blue: hsl(255, 100%, 94%);
+$pm-bright-blue: hsl(245, 75%, 52%);
+
+$nu-very-pale-blue: hsl(225, 100%, 98%);
+$nu-desaturated-blue: hsl(224, 23%, 55%);
+$nu-dark-blue: hsl(223, 47%, 23%);
