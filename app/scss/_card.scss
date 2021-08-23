@@ -8,7 +8,48 @@
     max-width: 28.125rem;
 
     .cardHeader {
-        min-height: 160px;
+        max-height: 220px;
         width: 100%;
     }
+
+    .contentArea {
+        width: 80%;
+        margin: 0 auto;
+
+        .cardPlan {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: $nu-very-pale-blue;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 40px;
+
+            .planDetails {
+                margin-left: -8.125rem;
+            }
+
+            > a {
+                font-size: 0.85rem;
+                color: blue;
+                text-decoration: underline;
+                font-weight: $fw-bold;
+            }
+        }
+
+        a#btnPay {
+            background-color: $pm-bright-blue;
+            color: $nu-very-pale-blue;
+            padding: 15px 105px;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            font-weight: $fw-bold;
+
+            &::after {
+                content: "";
+                margin-bottom: 50px;
+            }
+        }
+    }
+
 }

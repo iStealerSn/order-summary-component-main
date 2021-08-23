@@ -31,10 +31,14 @@ body {
 
 h2 {
     font-weight: $fw-black;
+    font-size: 28px;
+    letter-spacing: 0.02em;
 }
 
 p {
     font-size: 1rem;
+    font-weight: $fw-medium;
+    line-height: 1.5;
 }
 
 a, a:visited, a:hover {
@@ -48,6 +52,12 @@ img {
     height: 100%;
     width: 100%;
     object-fit: contain;
+}
+
+#icon {
+    height: 3rem !important;
+    width: 3rem !important;
+    margin-right: 20px;
 }
 
 .br {
