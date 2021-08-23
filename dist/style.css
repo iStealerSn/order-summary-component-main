@@ -41,6 +41,7 @@ body {
 @media screen and (min-width: 23.5rem) {
   body {
     background-image: url("/images/pattern-background-desktop.svg");
+    background-size: contain;
   }
 }
 
@@ -109,7 +110,7 @@ img {
   width: 85%;
   text-align: center;
   background: white;
-  max-height: 565px;
+  max-height: 700px;
   max-width: 28.125rem;
 }
 
@@ -120,7 +121,7 @@ img {
 
 .orderCard .contentArea {
   width: 80%;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 .orderCard .contentArea .cardPlan {
@@ -150,17 +151,33 @@ img {
   font-weight: 700;
 }
 
-.orderCard .contentArea a#btnPay {
+.orderCard .contentArea .btnPay {
   background-color: #3829e0;
-  color: #f5f7ff;
-  padding: 15px 105px;
+  padding: 15px 10px;
   border-radius: 10px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  box-shadow: 0px 10px 40px 1px rgba(56, 41, 224, 0.29);
+  -webkit-box-shadow: 0px 10px 40px 1px rgba(56, 41, 224, 0.29);
+  -moz-box-shadow: 0px 10px 40px 1px rgba(56, 41, 224, 0.29);
+}
+
+.orderCard .contentArea .btnPay:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.orderCard .contentArea .btnPay > a {
+  color: #f5f7ff;
   font-size: 0.9rem;
+}
+
+.orderCard .contentArea .btnCancel {
   font-weight: 700;
 }
 
-.orderCard .contentArea a#btnPay::after {
-  content: "";
-  margin-bottom: 50px;
+.orderCard .contentArea .btnCancel > a {
+  font-size: 0.9rem;
+  color: #7280a7;
 }
 /*# sourceMappingURL=style.css.map */

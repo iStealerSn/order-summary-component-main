@@ -1,42 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./dist/style.min.css">
-  <title>Frontend Mentor | Order summary card</title>
-
-</head>
-<body>
-  <main>
-    <section class="container">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./dist/style.min.css" />
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body>
+    <main>
+      <section class="container">
         <div class="orderCard br">
           <div class="cardHeader">
-            <img src="./images/illustration-hero.svg" alt="Illustration" aria-label="Illustration" class="br-top">
+            <img
+              src="./images/illustration-hero.svg"
+              alt="Illustration"
+              aria-label="Illustration"
+              class="br-top"
+            />
           </div>
           <div class="contentArea">
-          <div class="cardContent">
-            <h2>Order Summary</h2>
-            <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
-              device anywhere you like!</p>
-          </div>
-          <div class="cardPlan">
-            <img src="./images/icon-music.svg" alt="Music icon" aria-label="Music icon" id="icon">
-            <div class="planDetails">
-              <div><strong>Annual Plan</strong></div>
-              <div class="planCost">$59.99/year</div>
+            <div class="cardContent">
+              <h2>Order Summary</h2>
+              <p>
+                You can now listen to millions of songs, audiobooks, and
+                podcasts on any device anywhere you like!
+              </p>
             </div>
-            <a href="#">Change</a>
+            <div class="cardPlan">
+              <img
+                src="./images/icon-music.svg"
+                alt="Music icon"
+                aria-label="Music icon"
+                id="icon"
+              />
+              <div class="planDetails">
+                <div><strong>Annual Plan</strong></div>
+                <div class="planCost">$59.99/year</div>
+              </div>
+              <a href="#">Change</a>
+            </div>
+            <div class="btnPay">
+              <a
+                href="#"
+                role="button"
+                aria-roledescription="Click the button to make Order payment"
+                >Proceed to Payment</a
+              >
+            </div>
+            <div class="btnCancel">
+              <a
+                href="#"
+                role="button"
+                aria-roledescription="Click to button to cancel the Order"
+                >Cancel Order</a
+              >
+            </div>
           </div>
-          <a href="#" role="button" aria-roledescription="Click the button to make Order payment" id="btnPay">Proceed to Payment</a><br />
-          <a href="#" role="button" aria-roledescription="Click to button to cancel the Order">Cancel Order</a>
         </div>
-        </div>
-    </section>
-  </main>
-  <!-- 
+      </section>
+    </main>
+    <!-- 
   Annual Plan
   $59.99/year
 
@@ -44,6 +75,5 @@
 
   Proceed to Payment
   Cancel Order -->
-  
-</body>
+  </body>
 </html>
